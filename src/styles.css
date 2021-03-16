@@ -1,1 +1,28 @@
 /* You can add global styles to this file, and also import other style files */
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  background-color: whitesmoke;
+}
+
+.d-flex{
+  display: flex;
+}
+.d-flex-col{
+  flex-direction: column;
+}
+.d-flex.jc-sp-even{
+  justify-content: space-evenly;
+}
+.d-flex.jc-sp-between{
+  justify-content: space-between;
+}
+.d-flex.jc-right{
+  justify-content: right;
+}
